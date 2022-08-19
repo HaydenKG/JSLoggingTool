@@ -90,3 +90,11 @@ function cleanLogfiles(numberOfFiles) {
     if (numberOfFiles < logfileLimit) break;
   }
 }
+
+//Include the following for undefined arguments?
+function foo() {
+  for (var i = 0; i < arguments.length; i++) {
+    console.log(arguments[i]);
+  }
+}
+
